@@ -1,0 +1,137 @@
+body {
+    background-color: #fafafa;
+    font-size: 14px;
+}
+
+/******* PAGE *********/
+.search {
+    min-height: 220px;
+}
+
+.error-container {
+    color: red;
+    font-style: italic;
+}
+
+.error-container span {
+    display: block;
+    padding: 5px 0 0 20px;
+}
+/******* END PAGE *********/
+
+/******* COMPONENTS *********/
+.dropdown {
+    margin: 10px 20px;
+    width: 90%;
+}
+
+.dropdown option {
+    text-align: center;
+}
+
+.btn-green {
+    margin: 10px 20px;
+    background-color: #228B22;
+    color: #fafafa;
+    width: 90%;
+}
+
+.radiogroup {
+    margin: 10px 20px;
+    width: 90%;
+}
+
+.radiogroup .input-group .btn-group a {
+    width: 50%;
+}
+
+@media (min-width: 1200px) {
+    .list-container.panel.panel-success.col-lg-offset-1.col-lg-7.col-xs-12 {
+        margin-left: 2%;
+        width: 63%;
+    }
+}
+
+.listRoute .empty {
+    font-size: 26px;
+    color: #286090;
+    text-align: center;
+    min-height: 220px;
+    height: 220px;
+    padding-top: 30px;
+}
+
+.listRoute .empty i.glyphicon.glyphicon-info-sign {
+    display: block;
+    font-size: 84px;
+}
+
+.listRoute .route {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px dashed #334455;
+}
+
+.listRoute .route .steps-container {
+    float: right;
+    width: 70%;
+    margin-bottom: 0;
+}
+
+.listRoute .route .sumarize {
+    float: left;
+    width: 29%;
+}
+
+.listRoute .route .sumarize li.list-group-item {
+    background-color: #f5f5f5;
+}
+
+.listRoute .route .sumarize li.title {
+    background-color: #e9721e;
+    color: white;
+    text-align: center;
+    margin: -1px;
+}
+
+.listRoute .route .sumarize li {
+    text-align: center;
+    font-size: 16px;
+    color: #FF5722;
+}
+
+.listRoute .route .sumarize .buy {
+    width: 80%;
+    background-color: #e9721e;
+    border-color: #e9721e;
+}
+
+.listRoute .route .sumarize .buy:hover,
+.listRoute .route .sumarize .buy:focus,
+.listRoute .route .sumarize .buy:visited {
+    background-color: #F44336;
+    border-color: #F44336;
+}
+
+.listRoute .route .step {
+    padding: 15px;
+    background-color: #dff0d8;
+    margin-bottom: 5px;
+    color: #8a6d3b;
+}
+
+.listRoute .route .step .destination {
+    font-size: 24px;
+    font-weight: 350;
+}
+
+.listRoute .route .step .destination span.price {
+    font-weight: 400;
+    float: right;
+}
+
+.listRoute .route .step .info {
+    font-size: 14px;
+    font-style: oblique;
+}
+/******* END COMPONENTS *********/

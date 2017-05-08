@@ -1,0 +1,14 @@
+.pagination li {
+    cursor: pointer;
+}
+
+.pagination .back i,
+.pagination .next i {
+    line-height: 1.42857143
+}
+
+.pagination + p {
+    float: right;
+    font-style: italic;
+    margin-top: 30px; 
+}

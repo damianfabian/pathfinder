@@ -1,0 +1,9 @@
+.radiogroup .input-group,
+.radiogroup .input-group .btn-group {
+    width: 100%;
+}
+
+.radiogroup .input-group .btn-group a:not(.active) {
+    color: #3276b1;
+    background-color: #fff;
+}
